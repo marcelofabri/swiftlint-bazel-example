@@ -29,8 +29,8 @@ swift_rules_extra_dependencies()
 
 http_archive(
     name = "SwiftLint",
-    sha256 = "ec566314e9220ff681ddb639d3a0532834f66f7e733f5a59c7390469dcb5bd3e",
-    url = "https://github.com/realm/SwiftLint/releases/download/0.49.0/bazel.tar.gz",
+    sha256 = "b3799ed68b2130274da44ffa85513d25baaded850c85f114fe312a79c33eefd1",
+    url = "https://github.com/realm/SwiftLint/releases/download/0.50.1/bazel.tar.gz"
 )
 
 local_repository(
@@ -48,8 +48,8 @@ swiftlint_deps()
 
 http_archive(
     name = "com_github_buildbuddy_io_rules_xcodeproj",
-    sha256 = "1dd8e60ccb457536960d37ad77109c941060d8bc1e6c8b318c7a54ac7cec1b68",
-    url = "https://github.com/buildbuddy-io/rules_xcodeproj/releases/download/0.7.1/release.tar.gz",
+    sha256 = "b4e71c7740bb8cfa4bc0b91c0f18ac512debcc111ebe471280e24f579a3b0782",
+    url = "https://github.com/buildbuddy-io/rules_xcodeproj/releases/download/0.10.2/release.tar.gz",
 )
 
 load("@com_github_buildbuddy_io_rules_xcodeproj//xcodeproj:repositories.bzl", "xcodeproj_rules_dependencies")
